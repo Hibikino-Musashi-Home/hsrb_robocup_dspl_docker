@@ -66,7 +66,7 @@ $ docker-compose pull
 以下のコマンドを入力してシミュレータを起動してください。
 
 ```sh
-$ docker-compose up
+$ sh docker-compose-up
 ```
 
 以下の各URLをブラウザで開いて開発を進めてください。
@@ -85,14 +85,9 @@ https://github.com/NVIDIA/nvidia-docker
 
 レンダリングはサーバ上で立ち上がったディスプレイ番号0のXサーバ上で行います。
 以下のコマンドを入力してdocker内部からXサーバへのアクセスを許可してください。
-```sh
-$ DISPLAY=:0 xhost si:localuser:root
-```
-
-以下のコマンドを入力してシミュレータを起動してください。
 
 ```sh
-$ docker-compose -f docker-compose.nvidia.yml up
+$ sh docker-compose-up gpu
 ```
 
 以下の各URLをブラウザで開いて開発を進めてください。
