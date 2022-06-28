@@ -91,7 +91,7 @@ Next, perform rendering on display number 0 of the X server that was started up 
 Please input the following command and start the simulator.
 
 ```sh
-$ sh docker-compose-up gpu
+$ sh docker-compose-up.sh gpu
 ```
 
 Please open each of the following URLs in a browser, then move on to development.

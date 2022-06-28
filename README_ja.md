@@ -66,7 +66,7 @@ $ docker-compose pull
 以下のコマンドを入力してシミュレータを起動してください。
 
 ```sh
-$ sh docker-compose-up
+$ sh docker-compose-up.sh
 ```
 
 以下の各URLをブラウザで開いて開発を進めてください。
@@ -87,7 +87,7 @@ https://github.com/NVIDIA/nvidia-docker
 以下のコマンドを入力してdocker内部からXサーバへのアクセスを許可してください。
 
 ```sh
-$ sh docker-compose-up gpu
+$ sh docker-compose-up.sh gpu
 ```
 
 以下の各URLをブラウザで開いて開発を進めてください。

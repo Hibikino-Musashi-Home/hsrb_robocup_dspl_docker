@@ -60,7 +60,7 @@ services:
       - "3002:8888"
     volumes:
       - .:/workspace:cached
-      - ~/.gitconfig:/home/developer/.gitconfig
+      # - ~/.gitconfig:/home/developer/.gitconfig
     environment:
       - DISPLAY=:0
       - ROS_MASTER_URI=http://simulator:11311/
