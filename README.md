@@ -68,7 +68,7 @@ Starting the simulator
 Please input the following command and start the simulator.
 
 ```sh
-$ docker-compose up
+$ sh docker-compose-up.sh
 ```
 
 Please open each of the following URLs in a browser, then move on to development.
@@ -87,16 +87,11 @@ First, please install nvidia-docker by referring to the following URL:
 https://github.com/NVIDIA/nvidia-docker
 
 Next, perform rendering on display number 0 of the X server that was started up on the server.
-Please input the following command, to to give access from within docker to the X server.
-
-```sh
-$ DISPLAY=:0 xhost si:localuser:root
-```
 
 Please input the following command and start the simulator.
 
 ```sh
-$ docker-compose -f docker-compose.nvidia.yml up
+$ sh docker-compose-up.sh gpu
 ```
 
 Please open each of the following URLs in a browser, then move on to development.
